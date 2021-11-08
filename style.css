@@ -1,0 +1,46 @@
+body{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.containerL{
+    flex: 1;
+    background: red;
+    padding: 30px;
+    margin: 10px;
+}
+
+.containerC{
+    flex: 1;
+    background: royalblue;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.containerR{
+    flex: 1;
+    background: seagreen;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.picture{
+    width: 100%;
+}
+
+@media screen and (max-width:765px){
+.holdingcontainer{
+    flex-direction: column-reverse;
+}
+}
